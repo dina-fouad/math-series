@@ -28,6 +28,7 @@ def sum_series(n,f=0,s=1):
         return s
    
     return sum_series(n-1,f,s)+sum_series(n-2,f,s)
+print(sum_series(7,f=0,s=1))    
 
 
        
